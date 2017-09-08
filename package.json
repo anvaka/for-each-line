@@ -4,7 +4,7 @@
   "description": "Read a text file line by line, calls a callback, returns a promise that is resolved when file is completed",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
   },
   "keywords": [
     "read",
@@ -16,5 +16,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/anvaka/for-each-line"
+  },
+  "devDependencies": {
+    "tap": "^10.7.2"
   }
 }
