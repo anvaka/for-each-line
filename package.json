@@ -18,6 +18,6 @@
     "url": "https://github.com/anvaka/for-each-line"
   },
   "devDependencies": {
-    "tap": "^15.0.10"
+    "tap": "^15.1.2"
   }
 }
