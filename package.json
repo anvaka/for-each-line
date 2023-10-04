@@ -4,7 +4,7 @@
   "description": "Read a text file line by line, calls a callback, returns a promise that is resolved when file is completed",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap --allow-incomplete-coverage test/*.js"
   },
   "keywords": [
     "read",
@@ -18,6 +18,6 @@
     "url": "https://github.com/anvaka/for-each-line"
   },
   "devDependencies": {
-    "tap": "^16.3.2"
+    "tap": "^18.1.4"
   }
 }

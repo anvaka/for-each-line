@@ -9,7 +9,7 @@ test('it can print itself', (t) => {
 
   let accumulator = [];
   forEachLine(inputFileName, line => accumulator.push(line)).then(() => {
-    t.equals(accumulator.join('\n'), expectedContent, "File content is the same");
+    t.equal(accumulator.join('\n') + '\n', expectedContent, "File content is the same");
     t.end();
   });
 });
