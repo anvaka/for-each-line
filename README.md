@@ -5,7 +5,7 @@ Read a text file line by line, calls a callback, returns a promise that is resol
 # usage
 
 ``` js
-let forEachLine = require('for-each-line');
+const forEachLine = require('for-each-line');
 
 forEachLine(fileName, (line) => {
   console.log(line);
